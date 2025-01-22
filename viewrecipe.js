@@ -1,3 +1,4 @@
+import { recipes } from './data.js';
 //View Recipe
 export function viewRecipes(){
     if(recipes.length === 0){

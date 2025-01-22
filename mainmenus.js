@@ -1,7 +1,13 @@
-const adds = require('./addrecipe');
-const updates = require('./updaterecipe');
-const deletes = require('./deleterecipe');
-const views = require('./viewrecipe');
+// const {addRecipe} = require('./addrecipe');
+// const {updateRecipe} = require('./updaterecipe');
+// const {deleteRecipe} = require('./deleterecipe');
+// const {viewRecipes} = require('./viewrecipe');
+
+
+import { addRecipe } from './addrecipe.js';
+import { updateRecipe } from './updaterecipe.js';
+import { deleteRecipe } from './deleterecipe.js';
+import { viewRecipes } from './viewrecipe.js';
 
 //Main Menu's
 function mainMenu(){

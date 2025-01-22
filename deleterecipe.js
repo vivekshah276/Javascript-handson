@@ -1,3 +1,4 @@
+import { recipes } from './data.js';
 //Delete Recipe
 export function deleteRecipe(){
     const id = prompt("Choose your id");

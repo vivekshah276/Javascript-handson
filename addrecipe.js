@@ -1,5 +1,6 @@
+import { recipes } from './data.js';
 //Add Recipe
-const recipes = [];
+
 export function addRecipe(){
     const id = prompt("Enter your id");
     const name = prompt("Enter your recipe name");

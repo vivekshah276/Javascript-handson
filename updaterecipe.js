@@ -1,3 +1,4 @@
+import { recipes } from './data.js';
 //update recipe
 export function updateRecipe(){
     const id = prompt("Enter id");
