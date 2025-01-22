@@ -1,3 +1,7 @@
+const adds = require('./addrecipe');
+const updates = require('./updaterecipe');
+const deletes = require('./deleterecipe');
+const views = require('./viewrecipe');
 
 //Main Menu's
 function mainMenu(){

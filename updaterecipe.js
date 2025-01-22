@@ -1,5 +1,5 @@
 //update recipe
-function updateRecipe(){
+export function updateRecipe(){
     const id = prompt("Enter id");
     const recipe = recipes.find(r => r.id === id);
     if(recipe){
@@ -12,3 +12,5 @@ function updateRecipe(){
         alert("Not Found");
     }
 }
+
+// export default function updateRecipe(){};

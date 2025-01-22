@@ -1,6 +1,6 @@
 //Add Recipe
 const recipes = [];
-function addRecipe(){
+export function addRecipe(){
     const id = prompt("Enter your id");
     const name = prompt("Enter your recipe name");
     const type = prompt("Enter your recipe type");
@@ -8,3 +8,5 @@ function addRecipe(){
     recipes.push({id,name,type,description});
     alert("Recipe is added Successfully!");
 }
+
+// export default function addRecipe(){};

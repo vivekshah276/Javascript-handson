@@ -1,5 +1,5 @@
 //View Recipe
-function viewRecipes(){
+export function viewRecipes(){
     if(recipes.length === 0){
         alert("Recipes is empty");
     }
@@ -11,3 +11,5 @@ function viewRecipes(){
         alert(RecipeList);
     }
 }
+
+// export default function viewRecipes(){};

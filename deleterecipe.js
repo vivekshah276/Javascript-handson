@@ -1,5 +1,5 @@
 //Delete Recipe
-function deleteRecipe(){
+export function deleteRecipe(){
     const id = prompt("Choose your id");
     const index = recipes.findIndex(r =>r.id === id);
     if(index!== -1){
@@ -13,3 +13,5 @@ function deleteRecipe(){
     
 
 }
+
+// export default function deleteRecipe(){};
